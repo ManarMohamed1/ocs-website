@@ -1,0 +1,64 @@
+/*navbar**************/
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active ,.navbar-light .navbar-nav .nav-link:hover{
+    color: #8cc331;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid #8cc441;}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    padding-right: .75rem;
+    padding-left: .75rem}
+/*header**************/
+.head-part {
+    background-image: url(../images/7135.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    width: 100%;
+    padding: 90px 0;
+    height: 30vw;
+    color: #fff
+}
+/*ito description************/
+.description{
+    background-color: #f2f2f2;
+    padding: 90px 0
+}
+.description h2{
+    color: #8cc441;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #8cc441;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.description .lead{color: #444}
+/***************************/
+.detailed-info img, .about-ito img{    width: 574px;
+        height: 477px;}
+.detailed-info .row{background-color: #8cc441bd;}
+.about-ito .row{background-color: #8cc441e3;}
+.detailed-info .container, .about-ito .container{color: #fff; padding: 50px}
+.detailed-info .container h2, .about-ito .container h2{padding-bottom: 30px;font-size: 3rem;}
+.detailed-info .container ul, .about-ito .container ul{color: #f2f2f2}
+.detailed-info .container ul li, .about-ito .container ul li {padding-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;}
+.detailed-info .container ul li:hover, .about-ito .container ul li:hover{color: #fff}
+/*footer******************/
+footer{background-color: #333;
+color:#fff;
+padding: 20px 0}
+footer p, footer ul{display: inline-block;transition:all 1sec ease}
+footer ul li {display: inline-block;padding: 0 5px}
+footer p span:hover, footer ul li:hover {
+    color: #8cc441;
+    font-size: 20px;
+    font-weight: 600
+}

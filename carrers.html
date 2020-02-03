@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        
+        <!-- meta for mobs -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!--internet explorer-->
+        <meta http-equiv="x-uacompataple" content="IE=edge">
+        
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+         <![endif]-->
+
+        <title>careers</title>
+        
+        <!--bootstrap-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap_copy.css">
+        
+        <!--font awesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        
+        <!--normalize-->
+        <link rel="stylesheet" href="css/normalize.css">
+        
+        <!--my style-->
+        <link rel="stylesheet" href="css/style-careers.css">
+    </head>
+    <body>
+        <!--nav bar-->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #2b2b2a;" >
+              <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <img src="http://ocs.overcoffeesolutions.com/wp-content/uploads/2015/12/Untitled-1.png"
+                        style="width: 100px;height:50px;"
+                        alt="logo">
+                  </a>
+                  <!-- for small screans-->
+
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+
+
+                    
+            <div class="collapse navbar-collapse .float-md-right" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">about ocs</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          solutions
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">ITO</a>
+                          <a class="dropdown-item" href="#">HRM</a>
+                          <a class="dropdown-item" href="#">ERP</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Hospital management</a>
+                          <a class="dropdown-item" href="#">Property Management</a>
+                        </div>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">clients</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Careers
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Apply now</a>
+                          <a class="dropdown-item" href="#">OCS school</a>
+                        </div>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact us</a>
+                    </li>
+                </ul>
+             </div>
+            </div>
+          </nav>
+        
+        <!--header-->
+        <section class="head-part">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>You think you've got what it takes to join OCS? </h1>
+                        <h2>Apply now to join the team! </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--form-->
+        <section class="form">
+            <div class="cover">
+                <div class="container">
+                    <form>
+
+                        <!--apply for-->
+                      <div class="form-group">
+                        <label for="FormControlSelect">Apply for</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>first choice</option>
+                          <option>second choice</option>
+                          <option>third choice</option>
+                        </select>
+                      </div>
+
+                        <!--name-->
+                      <div class="form-group" style="margin-bottom: .5rem">
+                        <label for="inputName">Full NAme</label>  
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <input type="email" class="form-control" id="inputName" placeholder="First Name">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <input type="text" class="form-control" id="inputName" placeholder="Last Name">
+                        </div>
+                      </div>
+
+                        <!--date-->
+                      <div class="form-group">
+                        <label for="inputDate">Date of Birth</label> 
+                        <div class="input-append date form_datetime form-control">
+                        <input size="16" type="date" value="" readonly>
+                        <span class="add-on"><i class="fas fa-calendar-alt"></i></span>
+                        </div>
+
+                        <script type="text/javascript">
+                            $(".form_datetime").datetimepicker({
+                                format: "dd MM yyyy - hh:ii",
+                                autoclose: true,
+                                todayBtn: true,
+                                pickerPosition: "bottom-left"
+                            });
+                        </script>  
+                      </div>
+
+                        <!--email-->
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted" style="color: #ccc">We'll never share your email with anyone else.</small>
+                      </div>
+
+                        <!--phone-->
+                      <div class="form-group">
+                        <label for="inputphone">Phone</label>
+                        <input type="tel" class="form-control bfh-phone" data-format="+1 (ddd) ddd-dddd">
+                      </div>
+
+                        <!-- upload cv-->
+                      <div class="form-group">
+                        <label for="exampleFormControlFile1">Upload CV</label>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                      </div>
+
+                        <!--check box-->
+                      <div class="form-group">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                          <label class="form-check-label" for="gridCheck">
+                            Check me out
+                          </label>
+                        </div>
+                      </div>
+
+                        <!--submit-->
+                      <div class="button text-center">
+                        <button type="submit" class="btn btn-primary">submit</button>
+                      </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        
+        <!--footer-->
+        <footer >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2 text-center">
+                        <p>&copy; 2019 <span>Over Coffee Solutions.</span> All Rights Reserved</p>
+                        <ul class="icons">
+                            <li>
+                                <i class="fab fa-facebook-f"></i>
+                            </li>
+                            <li>
+                                <i class="fab fa-google-plus-g"></i>
+                            </li>
+                            <li>
+                                <i class="fab fa-linkedin-in"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!--scripts-->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+    </body>
+</html>
